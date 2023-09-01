@@ -1,0 +1,88 @@
+.fullCard{
+    border: none;
+    margin-top: 70px !important;
+    width: 16rem;
+}
+@media screen and (min-width:1340px) {
+  .fullCard{
+    
+    width: 16rem;
+}
+}
+@media screen and (max-width:1340px) {
+  .fullCard{
+    
+    width: 13rem;
+}
+}
+@media screen and (max-width:1175px) {
+  .fullCard{
+    
+    width: 12rem;
+}
+}
+@media screen and (max-width:1085px) {
+  .fullCard{
+    
+    width: 15rem;
+}
+}
+@media screen and (max-width:1035px) {
+  .fullCard{
+    
+    width: 14rem;
+}
+}
+@media screen and (max-width:991px) {
+  .fullCard{
+    
+    width: 16rem;
+}
+}
+@media screen and (max-width:935px) {
+  .fullCard{
+    
+    width: 23rem;
+}
+}
+@media screen and (max-width:900px) {
+  .fullCard{
+    
+    width: 20rem;
+}
+}
+  
+@media screen and (max-width:800px) {
+  .fullCard{
+    
+    width: 100%;
+}
+}
+  
+ 
+  
+  .channel-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 3px;
+  }
+  .content{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+  }
+  .channe-name{
+    font-size: 14px;
+    margin: 2px 0;
+    color: #979797;
+  }
+  

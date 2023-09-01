@@ -1,24 +1,101 @@
-.toggleLine{
-    width: 15px;
-    height: 2px;
-    background-color: black;
+
+.App {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+   
+  }
+  
+
+
+
+.short-icon{
+    width: 22px
 }
-.off-canvas {
-    width: 250px;
-    height: 100%;
+
+
+.slide {
     position: fixed;
-    top: 0;
-    left: -250px;
-    background-color: #333;
-    color: white;
+  top: 64px;
+  left: -220px;
+  width: 220px;
+  height: calc(100vh - 64px);
+  background-color: #fcfcfc;
+  overflow-y: hidden;  /* Enable vertical scrolling */
+ 
+  
+}
+.slide:hover {
+    overflow-y: auto; 
+}
+
+.slide.active {
+    left: 0px;
+   
+}
+
+.slide ul li{
+    list-style: none;
+    height: 40px;
+    display: flex;
+  
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+    
+}
+.slide ul {
+    padding-left: 19px;
+    padding-top: 3px;
+    
+}
+.slide ul li:hover {
+   background-color: rgb(222, 222, 222);
+    
+}
+.fix-icon ul {
+    padding-left: 1rem;
+    
+}
+.fix-icon ul li:hover {
+   background-color: rgb(222, 222, 222);
+    
+}
+.fix-icon ul li{
+    list-style: none;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.fix-icon ul{
+    padding-left: 3px;
+}
+.fix-icon{
+    position: fixed;
+    width: 80px;
+    height: calc(90vh - 64px);
+    background-color: #fcfcfc;
+    top: 64px;
+   left: 0;
+    
+    z-index: -1;
+}
+.trending-icon{
+    background-color: transparent;
+    color: black;
+}
+
+
+.main-video-container{
+    width: calc(100%-220px) !important;
+    margin-left: 220px;
     padding: 20px;
-    transition: left 0.3s;
-  }
   
-  .off-canvas.open {
-    left: 0;
-  }
-  
-  .off-canvas.closed {
-    left: -250px;
-  }
+}

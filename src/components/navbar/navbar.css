@@ -1,0 +1,155 @@
+
+.navbar{
+    width: 100% !important;
+    background:#fff ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.toggleLine{
+    width: 22px;
+    height: 2px;
+    background-color: black;
+}
+.logoPart{
+    width: 24%;
+}
+.formSpace{
+    width: 65%;
+}
+.navIcon {
+    width: 35%;
+}
+.navInput{
+    width: 80%;
+}
+.singleSearch{
+    display: none !important;
+   
+}
+.form-control {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+.searchIconBox{
+    width: 50px;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+.microphone{
+    width: 40px;
+    height: 40px;
+border-radius: 50%;
+
+}
+.mic-icon{
+    width: 20px;
+  
+}
+
+@media screen and (max-width:991px ) {
+    .formSpace{
+        width: 35%;
+    }
+    .navIcon {
+        width: 25%;
+    }
+    .navInput{
+        width: 80%;
+    }
+
+
+}
+@media screen and (min-width:768px ) {
+    .microphone {
+        background-color: #e9eff3;
+   
+    }
+}
+@media screen and (max-width:768px ) {
+   .toggle1{
+    display: none;
+   }
+    .logoPart{
+        width: 35%;
+    }
+    .formSpace{
+        width: 25%;
+    }
+    .navIcon {
+        width: 40%;
+    }
+    .singleSearch{
+        display: block ;
+        width: 100px;
+        height: 40px;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+    .singleSearch:hover{
+        background-color: #e9eff3;
+    }
+    .searchBar1{
+        display: none !important;
+    }
+
+    .microphone{
+        width: 100px;
+        height: 40px;
+    border-radius: 50%;
+   
+    }
+    .microphone:hover {
+        background-color: #e9eff3;
+   
+    }
+ 
+   
+
+}
+
+#signIn{
+    border-radius: 20px;
+    background: transparent;
+    color: #065fd4;
+    border: 1px solid #ececec;
+}
+.explore{
+    font-weight: 600;
+}
+#signIn:hover{
+ background-color:  #bbdcf6;;
+}
+
+.slider-on-off ul li{
+    list-style: none;
+    height: 40px;
+    display: flex;
+  
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+}
+.slider-on-off  ul li:hover{
+    background-color: rgb(222, 222, 222);
+}
+.slider-on-off  ul{
+  padding-left: 0;
+    padding-top: 3px;
+}
+
+
+.offcanvas {
+    width: 220px !important;
+    background-color: #fcfcfc;
+}
+.offcanvas::-webkit-scrollbar {
+width: 0 !important;
+}
+@media screen and (max-width:480px){
+   
+}
+.back-move{
+    cursor: pointer;
+}
