@@ -1,7 +1,19 @@
 .fullCard{
     border: none;
-    margin-top: 70px !important;
+    
     width: 16rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+.fullCard:hover {
+  transform: translate(-5px, -5px);
+  z-index: 1;
+  height: 300px;
+  height:320px;
+  background-color: #ebe5e5;
+  border-radius: 10px;
 }
 @media screen and (min-width:1340px) {
   .fullCard{
@@ -85,4 +97,25 @@
     margin: 2px 0;
     color: #979797;
   }
+ 
+ 
   
+  .onHoverBtn{
+    border-radius: 20px;
+
+    font-size: 14px;
+    border: 1px solid #b6afaf;
+    width: 110px;
+
+  }
+  .watchAndAdd {
+    visibility: hidden;
+    
+ 
+}
+
+.card:hover .watchAndAdd {
+    visibility: visible;
+}
+  
+ 
